@@ -12,7 +12,7 @@ public class HelloWorld {
 
         String name = console.readLine("What is your name?");
     
-        // System.out.println("Hello " + name + ", Please to meet you.");
-        // System.out.printf("Hello %s + , Please to meet you.", name);
+        System.out.println("Hello " + name + ", Please to meet you.");
+        System.out.printf("Hello %s + , Please to meet you.", name);
     }
 }
