@@ -10,9 +10,9 @@ public class HelloWorld {
         
         Console console = System.console();
 
-        String name = console.readLine("What is your name?");
+        String name = console.readLine("What is your name? ");
     
         System.out.println("Hello " + name + ", Please to meet you.");
-        System.out.printf("Hello %s + , Please to meet you.", name);
+        System.out.printf("Hello %s , Please to meet you.", name);
     }
 }
